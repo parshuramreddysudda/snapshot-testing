@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly when there are multiple items 1`] = `
+<ul>
+  <li
+    className="item-message"
+  >
+    one
+  </li>
+  <li
+    className="item-message"
+  >
+    two
+  </li>
+  <li
+    className="item-message"
+  >
+    three
+  </li>
+</ul>
+`;
+
+exports[`renders correctly when there are no items 1`] = `
+<span
+  className="empty-message"
+>
+  No items in list
+</span>
+`;
+
+exports[`renders correctly when there is one item 1`] = `
+<span
+  className="item-message"
+>
+  one
+</span>
+`;
